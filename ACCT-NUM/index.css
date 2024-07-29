@@ -1,0 +1,197 @@
+#create{
+    margin-top: 20px;
+    height: 100%;
+}
+
+
+#create-container{
+    display: none;
+    justify-content: center;
+  
+}
+
+
+#contents{
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#div-acct-num{
+    width: 90%;
+    height: 60px;
+    background-color: rgb(231, 204, 216);
+    padding: 0px 20px;
+    margin: auto;
+    border-radius: 2px;
+
+}
+
+
+#div-acct-num p{
+    padding-top: 13px;
+}
+
+
+#generatedAcct {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 6px;
+}
+
+
+#contents p{
+    justify-content: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#create-container-Two div img{
+    margin-left: 35px;
+    width: 185px;
+    height: 50px;
+}
+
+
+#contents div button{
+    margin-left: -35px;
+    margin-top: 95px;
+    background-color: rgb(137, 2, 62);
+    color: white;
+    width: 130%;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 18px 10px;
+    font-weight: 900;
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 150px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #ffa516 94%, #0000) top/8px 8px no-repeat,
+        conic-gradient(#0000 30%, #ffa516);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+    animation: l13 1s infinite linear;
+}
+
+@keyframes l13 {
+    100% {
+        transform: rotate(1turn)
+    }
+}
+
+
+
+#contents div button:active {
+    background-color: rgba(78, 1, 36, 0.911);
+    color: white;
+    cursor: grab;
+    transition: 1s;
+}
+
+
+#contents footer{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* | modal styles| */
+
+#modal{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 4% auto;
+    padding: 20px 10px;
+    border: 1px solid #888;
+    width: 60%;
+    border-radius: 3px;
+    height: 75%;
+}
+
+
+.div-img-modal img{
+    margin: auto 35%;
+    width: 150px;
+    height: 55px;
+}
+
+
+.div-log p{
+    font-size: 150px;
+    padding:100px;
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    margin-left: -50px;
+}
+
+
+.div-load-mssg{
+    margin-top: -165px;
+    text-align: center;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ||me sef don't understand|| */
+/* element.style {
+    width: 10rem;
+    height: 10rem;
+} */
+
+
+/* .spinner-border {
+    --bs-spinner-width: 2rem;
+    --bs-spinner-height: 2rem;
+    --bs-spinner-vertical-align: -0.125em;
+    --bs-spinner-border-width: 0.25em;
+    --bs-spinner-animation-speed: 0.75s;
+    --bs-spinner-animation-name: spinner-border;
+    border: var(--bs-spinner-border-width) solid currentcolor;
+    border-right-color: transparent;
+}
+
+
+
+.spinner-border {
+    --bs-spinner-width: 2rem;
+    --bs-spinner-height: 2rem;
+    --bs-spinner-vertical-align: -0.125em;
+    --bs-spinner-border-width: 0.25em;
+    --bs-spinner-animation-speed: 0.75s;
+    --bs-spinner-animation-name: spinner-border;
+    border: var(--bs-spinner-border-width) solid currentcolor;
+    border-right-color: transparent;
+} */
+
+                    

@@ -1,0 +1,225 @@
+body{
+    background: whitesmoke;
+}
+
+
+#acctNumber{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding-top:20px;
+    margin: 0px 0px 20px 40px;
+}
+
+
+.dashContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.dashSubContain{
+    width: 48%;
+    margin: 20px;
+}
+
+
+.dashSubContainOne{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn01{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 9px;
+}
+
+
+.bImg{
+    height: 25px;
+    width: 25px;
+}
+
+
+.dashSubContainOne img{
+    margin-top: -20px;
+    height: 65px;
+    width: 65px;
+    border-radius:50px;
+}
+
+
+.dashSubContainTwo{
+    color: white;
+    border-radius: 9px;
+    height: 180px;
+    background: rgb(137, 2, 62);
+}
+
+
+#welc{
+    /* margin: 30px 40px 0px 0px; */
+    margin-left: 40px;
+}
+
+.dashSubContainTwo p{
+    font-size: 19px;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#yb{
+    margin-top: -30px;
+    font-size: 19px;
+    color: white;
+}
+
+
+.nAs{
+    display: flex;
+    margin: 40px;
+    margin-top: -49px;
+    font-size: 30px;
+    gap: 10px;
+    color: rgb(237, 234, 234);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.dashSubContainTh p{
+    margin-left: -28px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.dashSubContainF{
+    background:white;
+    margin: 1px 10px;
+    width: 98%;
+    height: 18%;
+    box-shadow: 5px 5px 8px grey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    border: 0.5px solid rgb(224, 224, 224)
+}
+
+
+.btnOne{
+    height: 100%;
+    width: 140px;
+    cursor: pointer;  
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+}
+
+
+.btnOne:active{
+    transition: 0.3s;
+    background-color: whitesmoke;
+
+}
+
+
+.btnOne img{
+    margin-top: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+
+.dashSubContainF button p {
+    margin-top: 30px;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+
+.dashSubContainFi p{
+    margin-top: 45px;
+    margin-left: -22px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.dashSubContainSOne{
+    background: white;
+    border-radius: 8px;
+    margin: 10px 10px;
+    display: grid;
+    box-shadow: 3px 3px 8px grey;
+    grid-template-columns:repeat(4, 1fr);
+    border: 0.5px solid rgb(224, 224, 224)
+}
+
+
+
+.btnTwo{
+   height: 150px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+
+}
+
+
+.btnTwo:active{
+    transition: 0.3s;
+    background-color: whitesmoke;
+
+}
+
+
+.btnTwo img{
+    height: 45px;
+    width: 45px;
+    margin-top: 40px;
+}
+
+
+
+.btnTwo p{
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.dashSubContainSe{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.dashSubContainSe p{
+    font-size: 30px;
+}
+
+
+.btnThr{
+    margin-top: 28px;
+    height: 45px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    background: rgb(137, 2, 62);
+}
+
+
+.btnThr:active{
+    transition: 0.3s;
+    color: whitesmoke;
+    background: rgb(100, 22, 57);
+}

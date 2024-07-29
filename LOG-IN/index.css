@@ -1,0 +1,90 @@
+.myLogInContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+.logInImgcontainer img {
+    margin: 0 auto;
+    display: flex;
+    height: 69px;
+}
+
+
+.myH2{
+    text-align: center;
+}
+
+
+.myP{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.myLogIn{
+    margin-top: 40px;
+    
+}
+
+.myLogIn div{
+    margin: 20px;
+}
+
+
+.myLogIn div label{
+    /* font-size: 22px; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.myLogIn div input {
+    font-size: 20px;
+    color: grey;
+    padding-left: 10px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+.loginBp{
+    justify-content: center;
+    margin: auto;
+    padding: 25px;
+
+}
+
+.loginBp p {
+    margin-left: 28px;
+    color: rgb(137, 2, 62);
+}
+
+.loginBp a {
+    color: rgb(137, 2, 62);
+}
+
+
+.loginBp button {
+    border-radius: 9px;
+    background-color: rgb(137, 2, 62);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 900;
+    margin: auto;
+    border: none;
+    height: 45px;
+    width: 280px;
+}
+
+
+.loginBp button:active{
+    background-color: rgba(78, 1, 36, 0.911);
+    color: white;
+    cursor: grab;
+    transition: 1s;
+}

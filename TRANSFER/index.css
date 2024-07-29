@@ -1,0 +1,122 @@
+body{
+    background: whitesmoke;
+}
+
+
+.transContainer{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    width: 90%;
+}
+
+
+.transSubContainer{
+    height: 100%;
+}
+
+
+.transSubContainOne{
+    display: flex;
+    gap: 20px;
+    width: 200%;
+    margin-left: -100px;
+    height: 50px;
+}
+
+
+.transSubContainOne button {
+    border: none;
+    width: 60px;
+    background: whitesmoke;
+    font-size: 25px;
+    margin-top: -15px;
+}
+
+
+.transSubContainOne button:active{
+    transition: 0.5s;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+
+#backToDash{
+    cursor: pointer;
+}
+
+
+.transSubContainOne span{
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: -20px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.transSubContainTwo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+.reci{
+    font-family: 'Poppins', sans-serif;
+    margin-left: -15px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+.transSubContainThr {
+    margin-top: 10px;
+}
+
+
+.transSubContainThrOne input {
+    font-size: 20px;
+}
+
+
+#idOne{
+    margin-left: -18px;
+    height: 50px;
+    width: 400px;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: grey;
+    border: 1px solid grey;
+}
+
+
+
+#btnOne{
+    background: rgb(217, 176, 194);;
+    border: none;
+    margin-left: -18px;
+    height: 50px;
+    margin-top: 25px;
+    padding-left:18px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    width: 418px;
+    border-radius: 7px;
+}
+
+
+#btnThr{
+        background: rgb(137, 2, 62);
+        border: none;
+        padding-left: -40px;
+        margin-left: -18px;
+        height: 50px;
+        font-weight: bold;
+        margin-top: 55px;
+        font-size: 20px;
+        color: white;
+        width: 418px;
+        border-radius: 7px;
+}

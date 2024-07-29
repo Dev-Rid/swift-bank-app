@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+#backToDash{
+    font-size: 25px;
+    border: none;
+    background-color: white;
+
+}
+
+
+.btn-spa{
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.btn-spa button {
+    cursor: pointer;
+}
+
+
+.btn-spa span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.subDiv{
+    width: 30%;
+    margin: 130px 10px 10px -90px;
+}
+
+
+.subDiv-p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+
+.divs{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+img{
+    height:60px;
+    width:60px;
+    border-radius: 9px;
+}
+
+
+.subDivsP {
+    text-align: center;
+    font-size: 18px;
+
+}
+ 
+
+.divsTwo{
+    text-align: center;
+    margin: 30px -25px 0px;
+    /* display: flex; */
+    width: 115%;
+}
+
+
+#myInp{
+    padding-left: 5px;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey; 
+}
+
+
+.btn{
+    color: white;
+    margin-top: 10px;
+    margin-left: -90px;
+    width: 80px;
+    height: 37px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    background-color: rgb(137, 2, 62); 
+    cursor: pointer;
+}

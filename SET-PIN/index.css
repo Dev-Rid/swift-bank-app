@@ -1,0 +1,77 @@
+.setPinContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.subSetPinOne {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#pinImg {
+    height: 70px;
+    width: 180px;
+}
+
+
+.subSetPinTwo {
+    margin: 100px;
+    text-align: center;
+}
+
+
+.subSetPinTwo p{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.subSetPinTwo input {
+    padding-left: 15px;
+    font-size: 25px;
+    height: 50px;
+    width: 350px;
+    cursor: pointer;
+    border: 2px solid grey;
+    border-radius: 9px;
+    
+}
+
+
+.subSetPinThree {
+    text-align: center;
+    margin-top: -10px;
+}
+
+
+.subSetPinThree button {
+    font-size: 25px;
+    height: 50px;
+    width: 300px;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(137, 2, 62);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    cursor: grab;
+}
+
+
+
+.subSetPinThree button:active{
+    background-color: rgba(78, 1, 36, 0.911);
+    color: white;
+    cursor: grab;
+    transition: 0.5s;
+}
+
+
+.subSetPinThree p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 80px;
+    font-weight: 550;
+}
