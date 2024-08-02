@@ -1,9 +1,10 @@
 .myLogInContainer{
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
   
 }
+
 
 
 .logInImgcontainer img {
@@ -53,16 +54,19 @@
 
 
 .loginBp{
+    margin-top: -20px;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto;
     padding: 25px;
 
 }
+
 
 .loginBp p {
     margin-left: 28px;
     color: rgb(137, 2, 62);
 }
+
 
 .loginBp a {
     color: rgb(137, 2, 62);
