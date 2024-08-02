@@ -197,14 +197,40 @@
 
 
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
 
-
-    .loader{
-        height: 200px;
-        width: 200px;
+.modal-content {
+        margin: 25% auto;
+        width: 69%;
+        height: 70%;
     }
-} */
+
+
+    .div-load-mssg p {
+        margin-top: 15px;
+        
+    }
+
+    .loader {
+        margin-top: 20px;
+    }
+
+
+    #contents{
+        margin: 40% auto;
+    }
+
+
+    #contents div{
+        text-align: center;
+    }
+
+    #contents div button {
+        text-align: center;
+        width: 125%;
+    }
+    
+}
 
 
 /* @media screen and (min-width) {}{
