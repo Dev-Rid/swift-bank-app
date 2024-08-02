@@ -18,12 +18,13 @@
 
 
 .subSetPinTwo {
-    margin: 100px;
+    margin: 50 auto;
     text-align: center;
 }
 
 
 .subSetPinTwo p{
+    margin-top: 40px;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
 }
@@ -43,7 +44,15 @@
 
 .subSetPinThree {
     text-align: center;
-    margin-top: -10px;
+    margin: 15% auto;
+}
+
+
+.subSetPinThree p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 80px;
+    font-weight: 550;
 }
 
 
@@ -69,9 +78,10 @@
 }
 
 
-.subSetPinThree p{
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 80px;
-    font-weight: 550;
+
+/* media query */
+@media screen and (max-width: 414px) {
+    .setPin{
+        margin: 30% auto;
+    }
 }
