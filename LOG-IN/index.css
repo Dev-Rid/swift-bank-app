@@ -20,15 +20,18 @@
 
 
 .myP{
+    font-size: 15px;
+    font-weight:bold;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
 
 .myLogIn{
-    margin-top: 40px;
-    
+    margin: 0 auto;
+
 }
+
 
 .myLogIn div{
     margin: 20px;
@@ -91,4 +94,16 @@
     color: white;
     cursor: grab;
     transition: 1s;
+}
+
+
+
+/* media query */
+@media screen and (max-width: 414px) {
+    .myLogIn {
+        margin: 30% auto;
+    }
+    
+
+
 }
