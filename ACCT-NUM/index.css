@@ -129,12 +129,12 @@
 
 .modal-content{
     background-color: #fefefe;
-    margin: 18% auto;
+    margin: 5% auto;
     padding: 20px 10px;
     border: 1px solid #888;
-    width: 80%;
+    width: 69%;
     border-radius: 9px;
-    height: 75%;
+    height: 79%;
 }
 
 
@@ -169,7 +169,14 @@
 
 
 .div-load-mssg p{
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+
+.loader {
+    margin-top: 10px;
+    height: 160px;
+    width: 160px;
 }
 
 
