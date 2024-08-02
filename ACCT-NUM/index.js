@@ -3,7 +3,7 @@ window.onload = function pageAccNumber(){
     setTimeout(() => {
         const onloadModal = document.getElementById("modal")
         onloadModal.style.display = "none"
-    }, 3500);
+    }, 35000000);
 
 
     setTimeout(() => {  
