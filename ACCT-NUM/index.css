@@ -111,6 +111,7 @@
     font-size: 20px;
 }
 
+
 /* | modal styles| */
 
 #modal{
@@ -128,17 +129,21 @@
 
 .modal-content{
     background-color: #fefefe;
-    margin: 4% auto;
+    margin: 18% auto;
     padding: 20px 10px;
     border: 1px solid #888;
-    width: 60%;
-    border-radius: 3px;
+    width: 80%;
+    border-radius: 9px;
     height: 75%;
 }
 
 
-.div-img-modal img{
-    margin: auto 35%;
+.div-img-modal{
+    text-align: center;
+}
+
+
+.div-img-modal img{    
     width: 150px;
     height: 55px;
 }
@@ -158,40 +163,30 @@
     margin-top: -165px;
     text-align: center;
     font-weight: 500px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
 }
 
 
 
-/* ||me sef don't understand|| */
-/* element.style {
-    width: 10rem;
-    height: 10rem;
-} */
-
-
-/* .spinner-border {
-    --bs-spinner-width: 2rem;
-    --bs-spinner-height: 2rem;
-    --bs-spinner-vertical-align: -0.125em;
-    --bs-spinner-border-width: 0.25em;
-    --bs-spinner-animation-speed: 0.75s;
-    --bs-spinner-animation-name: spinner-border;
-    border: var(--bs-spinner-border-width) solid currentcolor;
-    border-right-color: transparent;
+.div-load-mssg p{
+    margin-top: 50px;
 }
 
 
 
-.spinner-border {
-    --bs-spinner-width: 2rem;
-    --bs-spinner-height: 2rem;
-    --bs-spinner-vertical-align: -0.125em;
-    --bs-spinner-border-width: 0.25em;
-    --bs-spinner-animation-speed: 0.75s;
-    --bs-spinner-animation-name: spinner-border;
-    border: var(--bs-spinner-border-width) solid currentcolor;
-    border-right-color: transparent;
+
+
+
+/* @media screen and (max-width: 768px) {
+
+
+    .loader{
+        height: 200px;
+        width: 200px;
+    }
 } */
 
-                    
+
+/* @media screen and (min-width) {}{
+
+} */
