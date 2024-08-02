@@ -12,15 +12,16 @@
 
 
 #contents{
-    margin-top: 90px;
+    height:70%;
+    margin-top: 30px;
     justify-content: center;
     align-items: center;
 }
 
 
 #div-acct-num{
-    width: 90%;
-    height: 60px;
+    width: 80%;
+    height: 55px;
     background-color: rgb(231, 204, 216);
     padding: 0px 20px;
     margin: auto;
@@ -50,10 +51,15 @@
 }
 
 
+#create-container-Two div{
+    text-align: center;
+}
+
+
 #create-container-Two div img{
-    margin-left: 35px;
-    width: 185px;
-    height: 50px;
+    width: 180px;
+    height: 60px;
+
 }
 
 
@@ -69,6 +75,21 @@
     padding: 18px 10px;
     font-weight: 900;
 }
+
+
+.divDashPage{
+    text-align: center;
+}
+
+
+#acctToDashPage{
+    /* margin-top: -50px; */
+    /* text-align: center; */
+    /* font-size: 16px; */
+    /* height: 60%; */
+    /* width: 10%; */
+}
+
 
 
 /* HTML: <div class="loader"></div> */
