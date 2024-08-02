@@ -20,11 +20,6 @@ const auth = getAuth()
 
 
 function logIn(){
-    // setTimeout(() => {
-    // const load = document.querySelector(".loadingContainer")
-
-    // }, 1000);
-    
     
 
     setTimeout(() => {
