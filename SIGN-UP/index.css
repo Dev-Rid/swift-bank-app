@@ -9,7 +9,6 @@
     text-align: center;
     font-weight:300;
     font-family: 'Poppins', sans-serif;
-  
 }
 
 .containerTwo p {
@@ -64,7 +63,6 @@ img{
 
 .bp p{
     text-align: center;
-    /* margin-left: 60px; */
     color: rgb(137, 2, 62);
 }
 
@@ -80,7 +78,6 @@ img{
     display: flex;
     text-align: center;
     justify-content: center;
-    /* margin-left: 55px; */
 }
 
 
@@ -112,8 +109,27 @@ img{
 
 
 /* ||media queries|| */
-@media only screen and(min-width: 500px){
+@media screen and (max-width: 360px){
+    .containerTwo div img {
+        width: 160px;
+        height: 70px;
+    }
 
-    
+
+    .img-container {
+        margin-top: -30px;
+       /* width: -10 auto; */
+    }
+
+
+    .mySignUp div input {
+        width: 100%;
+    }
+
+
+    #btnSignUp {
+        width: 80%;
+    }
+
 
 }
