@@ -63,6 +63,7 @@ img{
 
 
 .bp p{
+    text-align: center;
     /* margin-left: 60px; */
     color: rgb(137, 2, 62);
 }
@@ -77,8 +78,9 @@ img{
 #btnSignUp{
     cursor: pointer;
     display: flex;
+    text-align: center;
     justify-content: center;
-    margin-left: 55px;
+    /* margin-left: 55px; */
 }
 
 

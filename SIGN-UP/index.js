@@ -21,18 +21,8 @@ const auth = getAuth()
 async function linkToOtherPage(){  
   
     const mySignUp = document.querySelector(".mySignUp")
-    // mySignUp.addEventListener('submit', (e) => {
-        // e.preventDefault()
 
-        // const inpOne = document.getElementsByClassName("inpOne")
-        // const inpTwo = document.getElementsByClassName("inpTwo")
-        // const inpThree = document.getElementsByClassName("inpThree")
-        // const inpFour = document.getElementsByClassName("inpFour")
-                       
-    // })
-        
-
-        // const Arr = []
+    
         mySignUp.addEventListener('submit', (e)=> {
             e.preventDefault()
         
