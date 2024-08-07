@@ -18,10 +18,8 @@ import {
 initializeApp(firebaseConfig);
 const auth = getAuth()
 
-
 function logIn(){
     
-
     setTimeout(() => {
         const logUserIn = document.querySelector(".myLogIn")
         logUserIn.addEventListener("submit", (e) => {
